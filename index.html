@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
     <title>Rick and Morty API</title>
 </head>
 <body>
-    
+ <!-- -->  
+<form id="filtro-form">
+  <input type="text" id="name" placeholder="Name" />
+  
+  <select id="status">
+  </select>
+
+  <select id="species">
+  </select>
+
+  <select id="type">
+  </select>
+
+  <select id="gender">
+  </select>
+
+  <button type="submit" id="searchCharacter">Buscar</button>
+</form>
+
+<div id="resultados"></div>
+
+<!-- -->
 <div id="mostrar-Api"></div>
-<button id="personajes">Personajes</button>
+
 <script src="\script.js"></script>
 </body>
 </html>
